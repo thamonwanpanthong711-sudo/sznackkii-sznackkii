@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoReconcile Pro - ระบบกระทบยอดบัญชีอัตโนมัติ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Prompt', 'sans-serif'],
+              cute: ['Mali', 'cursive'],
+            },
+            colors: {
+              primary: '#EC4899', // Pink-500
+              primaryDark: '#BE185D', // Pink-700
+              secondary: '#FDF2F8', // Pink-50
+              accent: '#F472B6', // Pink-400
+              success: '#34D399', // Emerald-400 (Pastel)
+              warning: '#FBBF24', // Amber-400
+              danger: '#FB7185', // Rose-400
+              kitty: {
+                100: '#FFF1F2',
+                200: '#FFE4E6',
+                300: '#FECDD3',
+                500: '#F43F5E',
+              }
+            },
+            borderRadius: {
+              'xl': '1rem',
+              '2xl': '1.5rem',
+              '3xl': '2rem',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Prompt', sans-serif;
+        background-color: #FFF1F2; /* Very light pink bg */
+      }
+      h1, h2, h3, h4, .font-cute {
+        font-family: 'Mali', cursive;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
